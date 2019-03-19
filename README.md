@@ -5,6 +5,12 @@
 - 删除仓库
 - 回退版本
 - 命令行clone文件到本地
+- - git clone 
+- - 编辑器修改
+- - git status
+- - git add .
+- - git commit -m '记录'
+- - git push
 ## learn-python-3.18打卡
 ### 1. github
  使用回顾
