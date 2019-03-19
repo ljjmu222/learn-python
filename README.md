@@ -1,4 +1,4 @@
-## learn-python-3.19打卡
+# learn-python-3.19打卡
 ### 1. github使用
 - 创建自己的仓库
 - 修改并提交
@@ -20,9 +20,8 @@ s - git add .
 - - :w  
 - - :q
 ：wq
-
-111
-2222
+- - git checkout bug
+- - git merge
 # learn-python-3.18打卡
 ### 1. github
  使用回顾
