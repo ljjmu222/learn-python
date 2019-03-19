@@ -1,5 +1,9 @@
 ## learn-python-3.19打卡
-### 1. github
+### 1. github使用
+- 创建自己的仓库
+- 修改并提交
+- 删除仓库
+- 回退版本
 ## learn-python-3.18打卡
 ### 1. github
  使用回顾
