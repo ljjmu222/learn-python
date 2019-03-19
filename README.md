@@ -8,10 +8,19 @@
 - - git clone 
 - - 编辑器修改
 - - git status
-- - git add .
+s - git add .
 - - git commit -m '记录'
 - - git push
-## learn-python-3.18打卡
+- - git log
+- - git reset --hard '版本号'
+- - git reflog
+- - git reset --hard '未来版本号'
+- - vi 文件名 
+- - s 插入文件
+- - :w  
+- - :q
+：wq
+# learn-python-3.18打卡
 ### 1. github
  使用回顾
   - fork 分叉成自己的
