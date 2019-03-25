@@ -2,12 +2,12 @@
 ## 疑问
 - 1.什么是脚本？
 - 2.python -c command [arg] ...  不生效？
-### 学《python3入门指南》
+### 学[《python3入门指南》](http://www.pythondoc.com/pythontutorial3/appetite.html)
 #### 1.第一章 开胃菜
 - 介绍python是一门解释型语言和扩展性
 #### 2.第二章 使用 Python 解释器
 - 2.1 Python 解释器 
-'source ~/.bash_profile'
+ ```'source ~/.bash_profile'```
 配置环境变量
 -  python / ipython
 -  quit() 退出
@@ -17,7 +17,7 @@
 - 我们称解释器工作于 交互模式。这种模式下它根据主提示符来执行，主提示符通常标识为三个大于号(>>>)；继续的部分被称为 从属提示符，由三个点标识(...)
 - 2.2. 解释器及其环境
 - 2.2.1. 源程序编码
-- - ' # -*- coding: encoding -*- '
+  ```# -*- coding: encoding -*- ```
 #### 3.第三章 使用 Python 解释器
 - Python 简介
 - - 从属提示符表示你需要在最后多输入一个空行，解释器才能知道这是一个多行命令的结束。
