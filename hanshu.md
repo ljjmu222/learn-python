@@ -6,7 +6,7 @@
 -  return 用于函数返回运算的结果，一般在python中会自动给默认，但是在写函数的时候记得要写上。
 -  exit/quit是结束进程
 ##  加入break的函数
-'''
+```
 import random
 i=random.randrange(1,101)
 print(i)
@@ -34,4 +34,4 @@ def guess_number(x):
     else:
         print("格式错误，请重新输入")
     return
-'''
+```
