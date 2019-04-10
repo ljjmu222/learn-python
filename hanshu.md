@@ -6,32 +6,31 @@
 -  return 用于函数返回运算的结果，一般在python中会自动给默认，但是在写函数的时候记得要写上。
 -  exit/quit是结束进程
 ##  加入break的函数
-'''
+```
 import random
-i=random.randrange(1,101)
+i = random.randrange(1, 100)
 print(i)
 while True:
     x = input("请输入一个1-100之间的整数： ")
-    if x.isnumeric()==True:
+    if x.isnumeric() == True:
         x = int(x)
-        if guess_number(x)==True:
-            break
+        if x<100:
+            if guess_number(x):
+                break
+            else:
+                continue
         else:
-            continue      
+            print("格式错误，请重新输入")
     else:
         print("格式错误，请重新输入")
-    
-        
+
+
 def guess_number(x):
-    if x<101:
-        if x<i:
-            print("猜小了，再试试")
-        elif x > i:
-            print("猜大了，再试试")
-        else:
-            print("恭喜你，猜对了")
-            exit()           
+    if x < i:
+        print("猜小了，再试试")
+    elif x > i:
+        print("猜大了，再试试")
     else:
-        print("格式错误，请重新输入")
-    return
-'''
+        print("恭喜你，猜对了")
+        return  True
+    ```
